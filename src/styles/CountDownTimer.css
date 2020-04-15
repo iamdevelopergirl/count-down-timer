@@ -1,0 +1,48 @@
+h1 {
+    font-weight: normal;
+}
+  
+li {
+    display: inline-block;
+    font-size: 1.0em;
+    list-style-type: none;
+    padding: 1em;
+    text-transform: uppercase;
+}
+  
+li span {
+    display: block;
+    font-size: 1.5rem;
+}
+  
+  /* general styling */
+html, body {
+    min-height: 100vh;
+    min-width: 100vh;
+    margin: 0;
+}
+  
+body {
+    display: flex;
+    align-items: center;
+    background-image: url('../images/MyLove.JPG');
+    background-size: cover;
+    font-family: -apple-system, 
+        BlinkMacSystemFont, 
+        "Segoe UI", 
+        Roboto, 
+        Oxygen-Sans, 
+        Ubuntu, 
+        Cantarell, 
+        "Helvetica Neue", 
+        sans-serif;
+}
+  
+.container {
+    color: #333;
+    background-color: #ff7e7e;
+    margin-left: 1200px;
+    margin-bottom: 500px;
+    padding: 0.5rem;
+    text-align: center;
+}
